@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Sidebar</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="sidebar">
+      <header class="header">
+        <div class="logo" data-item="toggle">
+          <img src="./assets/logo.png" alt="logo Vet">
+        </div>
+        <div class="hamburger-menu">
+          <img src="./assets/menu.svg" alt="menu-hamburger">
+        </div>
+      </header>
+      <div class="input-wrapper">
+        <div>
+          <img src="./assets/search.svg" alt="search">
+        </div>
+        <input type="text" class="search" placeholder="Buscar">
+      </div>
+      <nav class="navbar">
+        <div class="nav-item">
+          <div>
+            <img src="./assets/grid.svg" alt="Dashboard">
+          </div>
+          <p class="nav-title" data-item="toggle">
+            Dashboard
+          </p>
+        </div>
+        <div class="nav-item">
+          <div>
+            <img src="./assets/pet.svg" alt="Pets">
+          </div>
+          <p class="nav-title" data-item="toggle">
+            Pets
+          </p>
+        </div>
+        <div class="nav-item">
+          <div>
+            <img src="./assets/user.svg" alt="Clientes">
+          </div>
+          <p class="nav-title" data-item="toggle">
+            Clientes
+          </p>
+        </div>
+        <div class="nav-item">
+          <div>
+            <img src="./assets/user-md.png" alt="Vets">
+          </div>
+          <p class="nav-title" data-item="toggle">
+            Vets
+          </p>
+        </div>
+        <div class="nav-item">
+          <div>
+            <img src="./assets/settings.svg" alt="Ajustes">
+          </div>
+          <p class="nav-title" data-item="toggle">
+            Ajustes
+          </p>
+        </div>
+      </nav>
+      <div class="profile-section">
+        <div data-item="toggle">
+          <img src="./assets/Profile.png" alt="profile-photo" class="profile-photo">
+        </div>
+        <div class="profile-data" data-item="toggle">
+          <p class="profile-name">Bruno Fukumori</p>
+          <span class="profile-job">Biomédico</span>
+        </div>
+        <div class="logout">
+          <img src="./assets/log-out.svg" alt="logout">
+        </div>
+      </div>
+    </div>
+    <main class="dashboard">
+      <h1 class="title">Dashboard</h1>
+    </main>
+  </div>
+  <script src="./scripts.js"></script>
+</body>
+
+</html>
